@@ -1,0 +1,44 @@
+:root {
+  --mainDark: #313133;
+  --lightGrey: #a8a4a4;
+  --mainWhite: #f3f3f3;
+  --mainRed: rgb(177, 18, 18);
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+
+.text-title {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-dark {
+  color: var(--mainDark);
+}
+
+.text-dark {
+  color: var(--mainDark);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: var(--mainDark);
+  border-radius: 0 ;
+  border: 0.1rem solid var(--mainDark) ;
+}
+.btn-black:hover {
+  background: var(--mainDark);
+  color: var(--mainWhite);
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--lightGrey);
+}
